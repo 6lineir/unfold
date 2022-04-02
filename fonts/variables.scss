@@ -1,0 +1,129 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+
+@font-face {
+  font-family: Samim;
+  src: url('~/assets/samim-font-v4/Samim.eot');
+  src: url('~/assets/samim-font-v4/Samim.eot?#iefix') format('embedded-opentype'),
+       url('~/assets/samim-font-v4/Samim.woff2') format('woff2'),
+       url('~/assets/samim-font-v4/Samim.woff') format('woff'),
+       url('~/assets/samim-font-v4/Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url('~/assets/samim-font-v4/Samim-Bold.eot');
+  src: url('~/assets/samim-font-v4/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+       url('~/assets/samim-font-v4/Samim-Bold.woff2') format('woff2'),
+       url('~/assets/samim-font-v4/Samim-Bold.woff') format('woff'),
+       url('~/assets/samim-font-v4/Samim-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url('~/assets/samim-font-v4/Samim-Medium.eot');
+  src: url('~/assets/samim-font-v4/Samim-Medium.eot?#iefix') format('embedded-opentype'),
+       url('~/assets/samim-font-v4/Samim-Medium.woff2') format('woff2'),
+       url('~/assets/samim-font-v4/Samim-Medium.woff') format('woff'),
+       url('~/assets/samim-font-v4/Samim-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+
+
+// html, a { font-family: "Samim" Tahoma; }
+
+.v-application {
+  font-family: 'Samim', Roboto !important;
+  // -moz-transform: scale(0.9, 0.9);
+  // zoom: 0.9;
+  // zoom: 90%;
+}
+
+// or
+
+#app {
+  font-family: 'Samim', Roboto !important;
+
+}
+
+
+.bg-apps {
+  background-image: url('/images-0/pattern-azure-dark.png') !important;
+  background-size: cover;
+  background-attachment: fixed;
+}
+// $font-size-root: 8px;
+.bg-card-dark {
+  background-image: url('/img/SimpGray.svg') !important;
+ 
+  background-size: cover;
+}
+.bg-card-light {
+  background-image: url('/img/SimpBlue.svg') !important;
+  background-size: cover;
+}
+
+.bg-card5 {
+  background-image: url('/images-0/bg5.png') !important;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
+
+.bg-card6 {
+  background-image: url('/images-0/bg6.png') !important;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
+
+.bg-card7 {
+  background-image: url('/images-0/particle-right.png') !important;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  
+}
+
+.bg-glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 255, 0.81);
+}
+// // Globals
+// // $body-font-family: 'Work Sans', serif;
+// $border-radius-root: 6px;
+// $font-size-root: 14px;
+
+// // Variables must come before the import
+// $btn-letter-spacing: 0;
+// $btn-font-weight: 400;
+// $list-item-title-font-size: 0.929rem;
+// $list-item-dense-title-font-size: 0.929rem;
+// $list-item-dense-title-font-weight: initial;
+// $fab-icon-sizes: (
+//   'small': 20
+// );
+// $btn-sizes: (
+//   'default': 41,
+//   'large': 54
+// );
+
+// $headings: (
+//   'h1': (
+//     'size': 3.3125rem,
+//     'line-height': 1.15em
+//   ),
+//   'h2': (
+//     'size': 2.25rem,
+//     'line-height': 1.5em
+//   )
+// );

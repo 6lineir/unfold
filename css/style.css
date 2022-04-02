@@ -1,6 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+
+
+
+@font-face {
+  font-family: Samim;
+  src: url('../fonts/samim-font-v4/Samim.eot');
+  src: url('../fonts/samim-font-v4/Samim.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/samim-font-v4/Samim.woff2') format('woff2'),
+       url('../fonts/samim-font-v4/Samim.woff') format('woff'),
+       url('../fonts/samim-font-v4/Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+
+/* @font-face {
+  font-family: Samim;
+  src: url('~/assets/samim-font-v4/Samim-Bold.eot');
+  src: url('~/assets/samim-font-v4/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+       url('~/assets/samim-font-v4/Samim-Bold.woff2') format('woff2'),
+       url('~/assets/samim-font-v4/Samim-Bold.woff') format('woff'),
+       url('~/assets/samim-font-v4/Samim-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url('~/assets/samim-font-v4/Samim-Medium.eot');
+  src: url('~/assets/samim-font-v4/Samim-Medium.eot?#iefix') format('embedded-opentype'),
+       url('~/assets/samim-font-v4/Samim-Medium.woff2') format('woff2'),
+       url('~/assets/samim-font-v4/Samim-Medium.woff') format('woff'),
+       url('~/assets/samim-font-v4/Samim-Medium.ttf') format('truetype');
+  font-weight: 500;
+} */
+
+
+
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Samim", sans-serif;
   color: #fff;
   font-size: 16px;
   line-height: 30px;
